@@ -1,0 +1,13 @@
+{% extends 'jobs/base.html' %}
+
+{% load static %}
+
+{% block content %}
+  <section class="jumbotron jumbotron-fluid text-center">
+    <div class="container">
+      <h1>Sorry, that page does not exist.</h1>
+      <p class="lead text-muted">Return to the <a href="{% url 'detail' blog.id %}"> homepage </a>.</p>
+    </div>
+  </section>
+
+{% endblock %}
